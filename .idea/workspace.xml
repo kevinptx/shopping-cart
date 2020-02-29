@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="451666d4-4408-466e-a87a-6a0fa9498a67" name="Default Changelist" comment="" />
+    <list default="true" id="451666d4-4408-466e-a87a-6a0fa9498a67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/peery/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/peery/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/peery/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/peery/CartTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YSdMIIQGjXBKppxBGzJFiHyxa6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,12 +36,61 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.peery" />
     </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CartTest.initEmptyCart">
+    <configuration name="CartTest.AddItemsToCart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.peery.CartTest.AddItemsToCart&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CartTest.initEmptyCart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.peery.CartTest.initEmptyCart&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CartTest.initEmptyCart" />
+        <item itemvalue="Gradle.CartTest.AddItemsToCart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,5 +104,27 @@
       <updated>1582939879463</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="408" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582978238377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="408" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1582978238377" />
+    <state width="1356" height="237" key="GridCell.Tab.0.bottom" timestamp="1582982494205">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1356" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582982494205" />
+    <state width="1356" height="237" key="GridCell.Tab.0.center" timestamp="1582982494204">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1356" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582982494204" />
+    <state width="1356" height="237" key="GridCell.Tab.0.left" timestamp="1582982494203">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1356" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582982494203" />
+    <state width="1356" height="237" key="GridCell.Tab.0.right" timestamp="1582982494204">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1356" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582982494204" />
   </component>
 </project>
