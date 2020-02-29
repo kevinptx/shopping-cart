@@ -53,7 +53,7 @@ public class CartTest {
 
             cart.addItem(item1);
             cart.addItem(item2);
-            assertEquals(new ArrayList<String>(Arrays.asList("North Face Jacket - $300", "Dress Slacks - $100")), cart.itemizedList());
+            assertEquals(new ArrayList<String>(Arrays.asList("North Face Jacket - $300.0", "Dress Slacks - $100.0")), cart.itemizedList());
     }
 
 //Given I have an empty cart, when I add items, then I expect itemizedList() reflect the items I have added along with their price and quantity.
@@ -67,7 +67,7 @@ public class CartTest {
         Item item2 = new Item("Running Shoes", 60.00);
 
         cart.addItem(item1, 2);
-        assertEquals(100.00, cart.getTotalPrice());
+        assertEquals(100.0, cart.getTotalPrice());
     }
 
 //Given I have an empty cart, when I add more than one of an item, then I expect getTotalPrice() to reflect both the item price and quantity.
@@ -81,7 +81,7 @@ public class CartTest {
         Item item2 = new Item("Running Shoes", 60.00);
 
         cart.addItem(item1, 2);
-        assertEquals(100.00, cart.getTotalPrice());
+        assertEquals(100.0, cart.getTotalPrice());
     }
 
 //Given I have a cart with items that are not on sale, when I add items that are on sale, I expect onSaleItems() to include only the items on sale.
@@ -98,10 +98,10 @@ public class CartTest {
     assertEquals(new ArrayList<String>(), cart.onSaleItems());
 
         cart.addItem(item2);
-        assertEquals(new ArrayList<String>(Arrays.asList("T-Shirt - $10")), cart.onSaleItems());
+        assertEquals(new ArrayList<String>(Arrays.asList("T-Shirt - $10.0")), cart.onSaleItems());
 
         cart.addItem(item3);
-        assertEquals(new ArrayList<String>(Arrays.asList("T-Shirt - $100", "Jacket - $100")), cart.onSaleItems());
+        assertEquals(new ArrayList<String>(Arrays.asList("T-Shirt - $10.0", "Jacket - $100.0")), cart.onSaleItems());
     }
 }
 
